@@ -33,7 +33,7 @@ arduino側のプログラムは[src/read_data](https://github.com/yoshiko-kulala
 
 ## メモ
 - データの中身
-実際に送ってる値は100msごとのパルスの増減  
+実際に送ってる値は10msごとのパルスの増減  
 特に計算してないのでエンコーダの分解能によってarduino側(もしくはnucleo)で処理されたし  
 - 送信時の話し  
 エンコーダ1つに10bit、4つで40bitなので5byteにして送信している  
